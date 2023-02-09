@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="text-white">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/tailwind.config.js"></script>
+    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/396065dad2.js" crossorigin="anonymous"></script>
+    <!--
+        having trouble seeing icons load? Follow the below steps
+        1. https://fontawesome.com/start and create a free account
+        2. Update the script tag above (line 9) with your kit id
+-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign In</title>
+</head>
+
+<body>
+    <div class="bg- flex items-center justify-center h-screen">
+        <div class="sm:container mx-auto text-center bg-zinc-800 align-center p-4 rounded-lg shadow-xl text-white">
+            <h3 class="font-bold text-lg text-center text-2xl pb-9">Welcome back!</h3>
+            <!-- Data -->
+            <form class="">
+                <div class="grid sm:grid-cols-2 gap-2">
+                    <!-- email -->
+                    <div class="col-span-full">
+                        <input type="email" placeholder="you@domain.com" name="email" id="email"
+                            class="input text-black md:w-1/2 w-3/4 bg-white rounded-lg p-1 m-1" />
+                        <label class="label">
+                            <span id="popup_error_email" class="hidden text-left text-sm text-red-500">incorrect
+                                Email<br>
+                            </span>
+                        </label>
+                    </div>
+                    <!-- password -->
+                    <div class="col-span-full">
+                        <input type="password" placeholder="Password" name="password"
+                            class="input text-black md:w-1/2 w-3/4 bg-white rounded-lg p-1 m-1" />
+                        <label class="label">
+                            <span id="popup_error_passoword" class="hidden text-left text-sm text-red-500">incorrect
+                                Passowrd<br>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <div class="justify-center">
+                    <button type="submit"
+                        class="bg-red-500 px-2 py-1 my-2 mx-1 rounded-lg shadow-xl hover:bg-red-700 text-white">Sign
+                        in</label>
+                </div>
+            </form>
+            <div class="mt-9">
+                <p>Don't have an account? <a href="#"
+                        class="text-neutral-400 link hover:text-white hover:underline">Sign
+                        up</a> </p>
+            </div>
+        </div>
+    </div>
+</body>
+</body>
+
+</html>
