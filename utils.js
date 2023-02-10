@@ -16,3 +16,12 @@ function signinPreview(message) {
 function showSignin(message) {
     document.getElementById('showSignin').innerText = message;
 }
+
+// Info Section
+function infosecPreview(message) {
+    document.getElementById('infosecPreview').innerHTML = message;
+}
+
+function showInfosec(message) {
+    document.getElementById('showInfosec').innerText = message;
+}
