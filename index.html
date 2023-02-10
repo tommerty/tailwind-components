@@ -32,9 +32,7 @@
                         <a class="text-xl bg-botred hover:bg-myst_dark md:px-9 px-4 py-1 rounded-full"
                             href="#components">Components</a>
                     </div>
-                    <div id="Image"><img
-                            src="https://media.discordapp.net/attachments/1040181727081017404/1072491696568406087/octocat-1673383287614.png?width=1096&height=1096"
-                            class="w-96"></div>
+                    <div id="Image"><img src="/assets/ttc.webp" class="w-96"></div>
                 </div>
             </div>
         </div>
@@ -63,10 +61,6 @@
             and I'll get back to you as soon as I can.<br>
             Feel free to contribute as well, I'm always looking for new ideas and ways to improve my code.
         </p>
-        <div class="mx-24">
-            <iframe src="https://github.com/sponsors/tommerty/card" title="Sponsor tommerty" height="225" width="600"
-                style="border: 0;"></iframe>
-        </div>
     </div>
     <div class="justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-1 lg:gap-9 md:mx-4 lg:mx-24">
         <div id="components" class="col-span-full ">
@@ -85,10 +79,14 @@
         <!-- CTA -->
         <div class=" container bg-gray1 p-4 rounded-lg shadow-xl">
             <h1 class="font-bold text-xl text-center pb-2">Call To Action</h1>
+            <div>
+                <p class="text-neutral-400 text-sm mb-2">Author: <a class="link hover:text-botred"
+                        href="https://github.com/tommerty">@tommerty</a></p>
+            </div>
             <div class="collapse">
                 <input type="checkbox" class="peer" />
                 <div
-                    class="collapse-title bg-botred text-primary-content peer-checked:bg-gray2 peer-checked:text-secondary-content">
+                    class="collapse-title bg-gray2 text-primary-content peer-checked:bg-botred peer-checked:text-secondary-content rounded-xl">
                     HTML <i class="fa-solid fa-arrow-right"></i>
                 </div>
                 <div
@@ -101,16 +99,19 @@
             </div>
             <div class="overflow-x-auto" style="display: flex;justify-content: center;">
                 <div id="ctaPreview" class="m-4 pointer-events-none"></div>
-                <!-- <img class="w-96 mb-4 rounded-lg" src="/assets/email-cta.png"> -->
             </div>
         </div>
         <!-- Sign Up -->
         <div class=" container bg-gray1 p-4 rounded-lg shadow-xl">
             <h1 class="font-bold text-xl text-center pb-2">Call To Action</h1>
+            <div>
+                <p class="text-neutral-400 text-sm mb-2">Author: <a class="link hover:text-botred"
+                        href="https://github.com/tommerty">@tommerty</a></p>
+            </div>
             <div class="collapse">
                 <input type="checkbox" class="peer" />
                 <div
-                    class="collapse-title bg-botred text-primary-content peer-checked:bg-gray2 peer-checked:text-secondary-content">
+                    class="collapse-title bg-gray2 text-primary-content peer-checked:bg-botred peer-checked:text-secondary-content rounded-xl">
                     HTML <i class="fa-solid fa-arrow-right"></i>
                 </div>
                 <div
@@ -123,10 +124,35 @@
             </div>
             <div class="overflow-x-auto" style="display: flex;justify-content: center;">
                 <div id="signinPreview" class="m-4 pointer-events-none"></div>
-                <!-- <img class="w-96 mb-4 rounded-lg" src="/assets/email-cta.png"> -->
             </div>
         </div>
         <!-- item -->
+        <div class=" container bg-gray1 p-4 rounded-lg shadow-xl">
+            <h1 class="font-bold text-xl text-center pb-2">Info Section</h1>
+            <div>
+                <p class="text-neutral-400 text-sm mb-2">Author: <a class="link hover:text-botred"
+                        href="https://github.com/tommerty">@tommerty</a></p>
+            </div>
+            <div class="collapse">
+                <input type="checkbox" class="peer" />
+                <div
+                    class="collapse-title bg-gray2 text-primary-content peer-checked:bg-botred peer-checked:text-secondary-content rounded-xl">
+                    HTML <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div
+                    class="collapse-content bg-gray2 text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+                    <div class="mockup-code bg-nav_bar my-4 px-9">
+                        <code id="showInfosec" class="">
+                        </code>
+                    </div>
+                </div>
+            </div>
+            <div class="overflow-x-auto" style="display: flex;justify-content: center;">
+                <div id="infosecPreview" class="m-4 pointer-events-none"></div>
+            </div>
+        </div>
+        <!-- item -->
+
         <!-- end #base -->
         <h3 id="flowbite" class="col-span-full font-bold text-2xl" style="justify-self: left">Flowbite</h3>
         <p class="col-span-full" style="justify-self: left">These components require <a
@@ -143,5 +169,6 @@
     <script src="utils.js"></script>
     <script src="codefiles.js"></script>
 </body>
+<script src="navbar.js"></script>
 
 </html>

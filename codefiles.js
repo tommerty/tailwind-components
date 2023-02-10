@@ -68,7 +68,7 @@ showSignin(`    <div class="bg- flex items-center justify-center h-screen">
 </div>`);
 
 signinPreview(`
-<div class="sm:container mx-auto text-center bg-zinc-800 align-center p-4 rounded-lg shadow-xl text-white">
+<div class=" text-center bg-zinc-800 align-center p-4 rounded-lg shadow-xl text-white">
     <h3 class="font-bold text-lg text-center text-2xl pb-9">Welcome back!</h3>
     <!-- Data -->
     <form class="">
@@ -76,7 +76,7 @@ signinPreview(`
             <!-- email -->
             <div class="col-span-full">
                 <input type="email" placeholder="you@domain.com" name="email" id="email"
-                    class="input text-black md:w-1/2 w-3/4 bg-white rounded-lg p-1 m-1" />
+                    class="input text-black w-3/4 bg-white rounded-lg p-1 m-1" />
                 <label class="label">
                     <span id="popup_error_email" class="hidden text-left text-sm text-red-500">incorrect
                         Email<br>
@@ -86,7 +86,7 @@ signinPreview(`
             <!-- password -->
             <div class="col-span-full">
                 <input type="password" placeholder="Password" name="password"
-                    class="input text-black md:w-1/2 w-3/4 bg-white rounded-lg p-1 m-1" />
+                    class="input text-black w-3/4 bg-white rounded-lg p-1 m-1" />
                 <label class="label">
                     <span id="popup_error_passoword" class="hidden text-left text-sm text-red-500">incorrect
                         Passowrd<br>
@@ -107,5 +107,36 @@ signinPreview(`
     </div>
 </div>`);
 
+// Info Section
 
+showInfosec(`<div class="text-white mx-full my-2 text-center font-bold">
+<h2>All these users love what we do</h2>
+<div id="" class="flex flex-box p-2 gap-2 justify-center grayscale">
+    <img class="w-16 rounded-lg"
+        src="https://picsum.photos/200">
+    <img class="w-16 rounded-lg"
+        src="https://picsum.photos/200">
+    <img class="w-16 rounded-lg"
+        src="https://picsum.photos/200">
+    <img class="w-16 rounded-lg"
+        src="https://picsum.photos/200">
+    <img class="w-16 rounded-lg"
+        src="https://picsum.photos/200">
+    </div>
+</div>`);
 
+infosecPreview(`<div class="text-white mx-full my-2 text-center font-bold">
+<h2>All these users love what we do</h2>
+<div id="" class="flex flex-box p-2 gap-2 justify-center grayscale">
+    <img class="w-16 rounded-lg"
+        src="https://picsum.photos/200">
+    <img class="w-16 rounded-lg"
+        src="https://picsum.photos/200">
+    <img class="w-16 rounded-lg"
+        src="https://picsum.photos/200">
+    <img class="w-16 rounded-lg"
+        src="https://picsum.photos/200">
+    <img class="w-16 rounded-lg"
+        src="https://picsum.photos/200">
+    </div>
+</div>`);
