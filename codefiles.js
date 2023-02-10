@@ -1,4 +1,4 @@
-showCTA(`<div id="discord-cta" class="bg-teal-600 p-9 text-center rounded-lg shadow-xl">
+showCTA(`<div id="email-cta" class="bg-teal-600 p-9 text-center rounded-lg shadow-xl">
 
 <h1 class="text-center text-white items-center text-2xl font-extrabold">Join our Newsletter <i
         class="fa-solid fa-envelope"></i></h1>
