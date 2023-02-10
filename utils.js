@@ -1,6 +1,18 @@
-function showCTA(message) {
-    document.getElementById('cta-code').innerText = message;
+// BASE TAILWIND
+// CTA
+function ctaPreview(message) {
+    document.getElementById('ctaPreview').innerHTML = message;
 }
+
+function showCTA(message) {
+    document.getElementById('showCTA').innerText = message;
+}
+
+// Sign In
+function signinPreview(message) {
+    document.getElementById('signinPreview').innerHTML = message;
+}
+
 function showSignin(message) {
-    document.getElementById('signin-code').innerText = message;
+    document.getElementById('showSignin').innerText = message;
 }
