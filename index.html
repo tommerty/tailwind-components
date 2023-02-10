@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.0/dist/full.css" rel="stylesheet" type="text/css" />
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="/tailwind.config.js"></script>
     <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap' rel='stylesheet'>
@@ -81,15 +83,27 @@
         <p class="col-span-full" style="justify-self: left">These components can be used with just Tailwind CSS and
             require no further configuration or addons.</p>
         <!-- item -->
-        <div class="container bg-gray1 p-4 rounded-lg shadow-xl">
+        <div class=" container bg-gray1 p-4 rounded-lg shadow-xl">
             <h1 class="font-bold text-xl text-center pb-2">Call To Action</h1>
-
             <div class="overflow-x-auto" style="display: flex;justify-content: center;">
                 <img class="w-96 mb-4 rounded-lg" src="/assets/email-cta.png">
             </div>
-            <div class="text-center">
-                <a href="https://github.com/tommerty/tailwind-components/tree/main/cta"
-                    class=" bg-botred hover:bg-myst_dark px-9 py-1 rounded-lg shadow-xl">Get</a>
+            <div class="">
+                <div class="collapse">
+                    <input type="checkbox" class="peer" />
+                    <div
+                        class="collapse-title bg-botred text-primary-content peer-checked:bg-gray2 peer-checked:text-secondary-content">
+                        HTML <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div
+                        class="collapse-content bg-gray2 text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+                        <div class="mockup-code bg-nav_bar my-4 px-9">
+                            <code id="cta-code" class="">
+
+                            </code>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- item -->
@@ -118,6 +132,8 @@
         </p>
         <h3 id="" class="col-span-full font-bold text-2xl">COMING SOON</h3>
     </div>
+    <script src="utils.js"></script>
+    <script src="codefiles.js"></script>
 </body>
 
 </html>
