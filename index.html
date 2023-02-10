@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-gray2 text-white">
+<html lang="en" class="bg-gray2 text-white scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,7 @@
 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>Tommerty's Tailwind Components</title>
 </head>
 
 <body>
@@ -27,8 +27,11 @@
             </div>
             <div class="col-span-full">
                 <div id="hero" class="grid md:grid-cols-2 justify-items-center font-bold p-4">
-                    <div class="text-3xl self-center text-left lg:text-center" id="Title">Open source, simple to use
-                        Tailwind components</div>
+                    <div class="text-3xl self-center text-left lg:text-center" id="Title">
+                        <h1>Simple to use Tailwind Components</h1>
+                        <a class="text-xl bg-botred hover:bg-myst_dark md:px-9 px-4 py-1 rounded-full"
+                            href="#components">Components</a>
+                    </div>
                     <div id="Image"><img
                             src="https://media.discordapp.net/attachments/1040181727081017404/1072491696568406087/octocat-1673383287614.png?width=1096&height=1096"
                             class="w-96"></div>
@@ -36,10 +39,49 @@
             </div>
         </div>
     </div>
-    <div class="justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-1 lg:gap-9 md:mx-4 lg:mx-24">
-        <div class="col-span-full ">
-            <h1 class="text-center text-3xl font-bold">List Of Components</h1>
+    <div class="bg-gray1 mt-4 pb-4 pt-2 mb-24 shadow-xl">
+        <h1 class="text-center font-bold text-4xl">About the components</h1>
+        <p class="mx-24 tracking-wide leading-8">I've developed these to be as simple to copy and paste into your own
+            projects.
+            They are basic
+            by design, and are there
+            to give you a "head start" on your own projects. In making them as simple as possible, I've also made some
+            work with and without further addons,
+            such as <a class="text-botred hover:underline" href="https://flowbite.com">FlowBite</a> or <a
+                class="text-botred hover:underline" href="https://daisyui.com">DaisyUI</a>.<br>
+            I may plan on adding additional components in the future with those extensions, but for now, I'm happy with
+            what I've got.<br><br>
+            They're all available on my <a class="text-botred hover:underline"
+                href="https://github.com/tommerty/tailwind-components">GitHub</a> page under the
+            <a class="text-botred hover:underline"
+                href="https://github.com/tommerty/tailwind-components/blob/main/LICENSE">GNU license</a>, so feel
+            free to use them as you wish, as long as it's covered under the license, of course!<br>
+            <br>
+            If you come across any problems at all, please open an issue on the <a class="hover:underline text-botred"
+                href="https://github.com/tommerty/tailwind-components/issues"><i class="fa-brands fa-github"></i>
+                page</a>,
+            and I'll get back to you as soon as I can.<br>
+            Feel free to contribute as well, I'm always looking for new ideas and ways to improve my code.
+        </p>
+        <div class="mx-24">
+            <iframe src="https://github.com/sponsors/tommerty/card" title="Sponsor tommerty" height="225" width="600"
+                style="border: 0;"></iframe>
         </div>
+    </div>
+    <div class="justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-1 lg:gap-9 md:mx-4 lg:mx-24">
+        <div id="components" class="col-span-full ">
+            <h1 class="text-center text-3xl font-bold">List Of Components</h1>
+            <div class="grid md:grid-cols-5 gap-4 text-center">
+                <div></div>
+                <a href="#base" class="bg-botred hover:bg-myst_dark px-2 py-1 rounded-full">Base Tailwind</a>
+                <a href="#flowbite" class="bg-botred hover:bg-myst_dark px-2 py-1 rounded-full">FlowBite</a>
+                <a href="#daisyui" class="bg-botred hover:bg-myst_dark px-2 py-1 rounded-full">DaisyUI</a>
+                <div></div>
+            </div>
+        </div>
+        <h3 id="base" class="col-span-full font-bold text-2xl" style="justify-self: left">Base Tailwind</h3>
+        <p class="col-span-full" style="justify-self: left">These components can be used with just Tailwind CSS and
+            require no further configuration or addons.</p>
         <!-- item -->
         <div class=" container bg-gray1 p-4 rounded-lg shadow-xl">
             <h1 class="font-bold text-xl text-center pb-2">Call To Action</h1>
@@ -62,7 +104,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
         <!-- item -->
@@ -73,11 +114,23 @@
                 <img class="w-96 mb-4 rounded-lg" src="/assets/sign in.png">
             </div>
             <div class="text-center">
-                <a href="https://github.com/tommerty/tailwind-components/modals/sign-in"
+                <a href="https://github.com/tommerty/tailwind-components/tree/main/modals/sign-in"
                     class=" bg-botred hover:bg-myst_dark px-9 py-1 rounded-lg shadow-xl">Get</a>
             </div>
         </div>
         <!-- item -->
+        <!-- end #base -->
+        <h3 id="flowbite" class="col-span-full font-bold text-2xl" style="justify-self: left">Flowbite</h3>
+        <p class="col-span-full" style="justify-self: left">These components require <a
+                class="text-botred hover:underline" href="https://flowbite.com">Flowbite</a> in order to work correctly.
+        </p>
+        <h3 id="" class="col-span-full font-bold text-2xl">COMING SOON</h3>
+        <!-- end #flowbite -->
+        <h3 id="daisyui" class="col-span-full font-bold text-2xl" style="justify-self: left">DaisyUI</h3>
+        <p class="col-span-full" style="justify-self: left">These components require <a
+                class="text-botred hover:underline" href="https://daisyui.com">DaisyUI</a> in order to work correctly.
+        </p>
+        <h3 id="" class="col-span-full font-bold text-2xl">COMING SOON</h3>
     </div>
     <script src="utils.js"></script>
     <script src="codefiles.js"></script>
