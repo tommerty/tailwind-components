@@ -13,7 +13,7 @@ assignees: tommerty
 ```
 paste_code_here
 ```
-*Please only insert the raw `<div> ... </div> inside that's required. We will test the block via a copy/paste into a default HTML file to test. If it fails this we will let you know, or make adjustments as needed*
+*Please only insert the raw `<div> ... </div>` inside that's required. We will test the block via a copy/paste into a default HTML file to test. If it fails this we will let you know, or make adjustments as needed*
 
 ### Create issue now, and check boxes on the issue page
 ---
