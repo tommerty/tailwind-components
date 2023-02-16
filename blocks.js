@@ -10,4 +10,4 @@ function ctaBox(message) {
         class="text-center text-white bg-teal-700 hover:bg-teal-900 hover:text-white p-2 rounded-lg font-bold text-xl">
         <i class="fa-solid fa-envelope text-white text-xl"></i> Sign Up</a>
     </div>`).innerText = message;
-}
+}    
